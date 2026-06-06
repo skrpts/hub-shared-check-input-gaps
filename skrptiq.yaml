@@ -1,9 +1,9 @@
 # --- Identity ---
-id: "c920488a-32b0-4fca-9e58-0c922a218b06"
+id: "01a55f0b-66e4-4059-9695-3d6043605add"
 name: "check-input-gaps"
 display_name: "Check Input Gaps"
 description: "Pre-flight check: identifies missing, thin, or ambiguous inputs before the pipeline commits to full execution"
-version: "1.0.0"
+version: "1.0.1"
 engine: ">=0.1.0"
 author:
   name: "skrptiq"
