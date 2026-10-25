@@ -4,6 +4,11 @@ id: check-input-gaps
 title: Check Input Gaps
 description: "Pre-flight check: identifies missing, thin, or ambiguous inputs before the pipeline commits to full execution"
 tags: [Production, Quality]
+context_params:
+  source:
+    label: "Inputs Provided"
+    description: "The inputs Provided supplied by the upstream step."
+    required: true
 metadata:
   output_format: structured
   prompt_type: analysis
@@ -19,7 +24,7 @@ You are a pre-flight validator. Check whether the inputs provided so far are suf
 
 ### Inputs Provided
 
-{{steps.previous.output}}
+{{step.context.source}}
 
 ### Instructions
 

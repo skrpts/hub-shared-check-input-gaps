@@ -3,7 +3,7 @@ id: "01a55f0b-66e4-4059-9695-3d6043605add"
 name: "check-input-gaps"
 display_name: "Check Input Gaps"
 description: "Pre-flight check: identifies missing, thin, or ambiguous inputs before the pipeline commits to full execution"
-version: "1.0.4"
+version: "1.0.5"
 engine: ">=0.1.0"
 author:
   name: "skrptiq"
@@ -28,7 +28,7 @@ contents:
 
 security:
   status: "pass"
-  scanned_at: "2026-07-16T13:32:39.071Z"
+  scanned_at: "2026-10-25T16:44:49.459Z"
   scanner_version: "3.3.0"
   syntactic: "pass"
   structural: "pass"
